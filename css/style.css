@@ -72,8 +72,10 @@ header {
 }
 
 header nav {
-	background-color: #4C85FF;
-	margin-top: 10px;
+    background-color: #4C85FF;
+    margin-top: 10px;
+    margin-left: 0%;
+    margin-right: -25%;
 }
 
 header nav a {

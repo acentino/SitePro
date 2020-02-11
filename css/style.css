@@ -240,7 +240,7 @@ margin:0px;
 		color: #314C35;
 	}
 	.containere{
-		position: absolute;
+		display: none;
 	}
 }
 

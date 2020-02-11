@@ -58,11 +58,7 @@ p {
 
 .container {
 	margin: 25px;
-}
-.containere {
-	margin: 25px;
 	position: fixed;
-	margin-top: 10px;
 	margin-left: 10%;
 	margin-right: 10%;
 }

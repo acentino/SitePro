@@ -239,6 +239,9 @@ margin:0px;
 		background-color: #F2F1F4;
 		color: #314C35;
 	}
+	.containere{
+		position: absolute;
+	}
 }
 
 /* VERSION DESKTOP */

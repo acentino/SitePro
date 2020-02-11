@@ -96,6 +96,7 @@ section img {
 aside {
 	display: none;
 	margin-top: 90px;
+	position: fixed;
 }
 
 /* LICENCE */

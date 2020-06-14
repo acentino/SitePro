@@ -13,13 +13,13 @@ body {
 	background: #F2F1F4;
 	font-family: "Open Sans", Arial;
 	margin: 0;
-	color: #6a6d70;
+	color: black;
 	font-size: 1.6rem;
 	line-height: 1.8;
 }
 
 a {
-	color: #49B2B4;
+	color: black;
 	text-decoration: none;
 	-webkit-transition: all 0.2s ease 0s;
 	transition: all 0.2s ease 0s;
@@ -40,7 +40,7 @@ h1, h2 {
 	text-transform: uppercase;
 	margin: 0;
 	border-bottom: 1px solid #30A894;
-	color: #30A894;
+	color: black;
 }
 
 h1 {
@@ -238,7 +238,7 @@ margin:0px;
 	aside {
 		padding: 25px;
 		background-color: #F2F1F4;
-		color: #314C35;
+		color: black;
 	}
 	.containere{
 		display: block;

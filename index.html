@@ -1,78 +1,74 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans+Narrow">
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
-	<title>Dylan Bessas</title>
-</head>
-<body>
-	<!--HEADER-->
-	<header class="containere">
-		<nav>
-			<a href="index.html"><ul>Acceuil</ul></a><!--
-			--><a href="#profil"><ul>Profil</ul></a><!--
-			--><a href="#parcours"><ul>Parcours</ul></a><!--
-			--><a href="portfolio.html"><ul>Travaux</ul></a><!--
-			--><a href="#competences"><ul>Compétences</ul></a>
-		</nav>
-</header>
-</div>
-	<!--MAIN CONTENT-->
-	<main class="container">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans+Narrow">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+		<title>Dylan Bessas</title>
+	</head>
+	
+	<header>
 		<section>
-			<article id="profil">
-				<h1>A propos de moi</h1>
-				<picture>
-					<source srcset="./img/illu-mobile.PNG" media="(max-width: 767px)">
-					<source srcset="./img/illu-tablette.PNG" media="(max-width: 1024px)">
-					<img src="./img/illu.PNG" alt="image desktop">
-				</picture>
-				<p>Ma réussite professionnelle étant mon objectif principal, je souhaite acquérir de l'expérience dans divers domaines tels que le développement d'applications lourdes et webs. Je suis capable de travailler en autonomie dans un environnement dynamique et exigeant. L'informatique a toujours été une passion et je souhaite en faire mon métier. Une forte motivation et des capacités d'analyse, de méthode et de rigueur m'aideront à forger mon avenir afin de devenir un bon développeur.</p>
-			</article>
-			<article id="parcours">
-				<h1>Parcours</h1>
-					<p>2019: Formation Développeur-Intégrateur Web Ecole (Certification RNCP Niveau 3) 3W Academy, 46 Rue René Clair 75018 Paris</p>
-					<p>2016-2017: Baccalauréat Littéraire- spécialité Anglais Lycée Bossuet, 11 Rue Bossuet 19100 Brive-la-Gaillarde</p>
-					<p>2016-2018: Membre du Conseil Municipal des Jeunes de Brive-la-Gaillarde</p>
-					<p>2012-2013: Brevet des collèges Collège La Salle,3 Avenue Thiers 19100 Brive-la-Gaillarde</p>
-					<p>Juin 2013: Certificat B2I Collège La Salle,3 Avenue Thiers 19100 Brive-la-Gaillarde</p>
-				</article>
-				<article id="competences">
-				<h1>Competences</h1>
-				<h2>Langues:</h2>
+			<a href="https://www.linkedin.com/in/dylan-bessas-b669a1177/" id="logo" target="_blank">Dylan Bessas</a>
+			<label for="toggle-1" class="toggle-menu">
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</label>
+			<input type="checkbox" id="toggle-1">
+			<nav>
+				<ul>
+					<li><a href="#acceuil"><i class="icon-home"></i>Accueil</a></li>
+					<li><a href="portfolio.html"><i class="icon-gear"></i>Portfolio</a></li>
+					<li><a href="CV DYLAN BESSAS 2020.pdf"><i class="fas fa-download"></i>Curriculum Vitae</a></li>
+				</ul>
+			</nav>
+		</section>
+	</header>
+	
+	<main>
+		<section id="profil" class="content">
+			<h2>Profil</h2>
+			<p>Ma réussite professionnelle étant mon objectif principal, je souhaite acquérir de l'expérience dans divers domaines tels que le développement d'applications lourdes et webs. Je suis capable de travailler en autonomie dans un environnement dynamique et exigeant. L'informatique a toujours été une passion et je souhaite en faire mon métier. Une forte motivation et des capacités d'analyse, de méthode et de rigueur m'aideront à forger mon avenir afin de devenir un bon développeur.</p>
+		</section>
+		
+		<section id="parcours" class="content">
+			<h2>Parcours</h2>
+			<p>2019: Formation Développeur-Intégrateur Web Ecole (Certification RNCP Niveau 3) 3W Academy, 46 Rue René Clair 75018 Paris</p>
+			<p>2016-2017: Baccalauréat Littéraire- spécialité Anglais Lycée Bossuet, 11 Rue Bossuet 19100 Brive-la-Gaillarde</p>
+			<p>2016-2018: Membre du Conseil Municipal des Jeunes de Brive-la-Gaillarde</p>
+			<p>2012-2013: Brevet des collèges Collège La Salle,3 Avenue Thiers 19100 Brive-la-Gaillarde</p>
+			<p>Juin 2013: Certificat B2I Collège La Salle,3 Avenue Thiers 19100 Brive-la-Gaillarde</p>
+		</section>
+	
+		<section id="competence" class="content">
+			<h2>Compétences</h2>
+			<br>
+			<p>Langues:</p>
 				<p>Anglais: Niveau B2</p>
 				<p>Espagol: Niveau B1</p>
-				<h2>Langages de programmation</h2>
+		
+			<br>
+		
+			<p>Langages de programmation:</p>
 				<p>HTML</p>
 				<p>CSS</p>
 				<p>PHP</p>
 				<p>MySQL</p>
 				<p>Javascript</p>
-			</article>
-			<article id="contacts">
-				<h1>Contact</h1>
-				<p></p>
-			</article>
-		</section><!--
-		--><aside id="#profil">
-			<article>
-				<h2>Nom: Dylan Bessas</h2>
-				<h2>Date de naissance: 26 mai 1997</h2>
-				<h2>Adresse: Brive, France</h2>
-				<h2>Nationalité: Francais</h2>
-				<h2>Téléphone: 07.78.70.37.13</h2>
-				<h2>Mail: dylanbessas26@gmail.com</h2>
-			</article>
-			<article>
-				<br>
-				<h2>Telechargez mon cv</i></h2>
-				<a href="CV DYLAN BESSAS 2020.pdf"><p>Curriculum Vitae   <i class="fas fa-download"></i></p></a>
-			</article>
-		</aside>
-	</main>
-</body>
+		</section>
+		<footer>
+			<ul class="social">
+				<li>Adresse: Brive, France</li>
+				<li>Téléphone: 07.78.70.37.13</li>
+				<li>Mail: dylanbessas26@gmail.com</li>
+			</ul>
+		</footer>
+	</section>
+</main>
 </html>

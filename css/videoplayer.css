@@ -1,8 +1,4 @@
-body {
-    background: #111;
-  }
-  
-  .video {
+    .video {
     // the good stuff:
     height: 0;
     padding-bottom: 42.6%; // ratio of the video 16/9 would be 56.25% (42.6 % of he width of the parent element)

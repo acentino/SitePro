@@ -9,6 +9,7 @@
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/videoplayer.css">
 		<script src="js/videoplayer.js"></script>
+		<script src="js/carousel.js"></script>
 		<title>Dylan Bessas</title>
     </head>
     
@@ -37,7 +38,55 @@
     <main>
 		<section id="sites" class="content">
             <h1>Site internets</h1>
-        </section>
+		</section>
+		<!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 5</div>
+      <img src="img/Cupoftea.JPG" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 5</div>
+      <img src="img/Mindgeek.JPG" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 5</div>
+      <img src="img/Bootstrap.JPG" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 5</div>
+        <img src="img/JohnDoe.JPG" style="width:100%">
+        <div class="text">Caption four</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">5 / 5</div>
+        <img src="img/Wolfgang.JPG" style="width:100%">
+        <div class="text">Caption five</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+  </div>
         <div class="social">
             <ul>
 				<li><h1><a href="sites/Bootstrap/index.html" target="_blank">Bootstrap</a></h1></li>

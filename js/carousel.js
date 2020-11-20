@@ -1,11 +1,10 @@
 var slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
 function plusSlides(n) {
     showSlides(slideIndex += n);
 }
-// Thumbnail image controls
+
 function currentSlide(n) {
     showSlides(slideIndex = n);
 }
@@ -40,4 +39,9 @@ function showSlides() {
     if (slideIndex > slides.length) {slideIndex = 1}
     slides[slideIndex-1].style.display = "block";
     setTimeout(showSlides, 12000); // Change image every 12 seconds
+}
+
+function firstSlide() {
+    if n=1
+    showSlides(slideIndex = n);
 }

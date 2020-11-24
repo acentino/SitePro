@@ -27,7 +27,7 @@ function showSlides(n) {
 }
 
 var slideIndex = 0;
-showSlides();
+showSlides(1);
 
 function showSlides() {
     var i;

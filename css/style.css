@@ -129,6 +129,10 @@ footer{
     width:100%;
 }
 
+article{
+    display: flex;
+}
+
 .social{
     margin:0px auto;
     display:table;
